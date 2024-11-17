@@ -1,0 +1,93 @@
+.grid-pane {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-padding: 5px;
+    -fx-hgap: 1px;
+    -fx-vgap: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 0);
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 0;
+    -fx-padding: 5px;
+    -fx-alignment: center;
+    -fx-font-size: 25px;
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+}
+
+.text-field:hover {
+    -fx-background-color: #f8f8f8;
+}
+
+.right-border {
+    -fx-border-width: 1px 3px 1px 1px;
+    -fx-border-color: #cccccc black #cccccc #cccccc;
+}
+
+.bottom-border {
+    -fx-border-width: 1px 1px 3px 1px;
+    -fx-border-color: #cccccc #cccccc black #cccccc;
+}
+
+.right-border.bottom-border {
+    -fx-border-width: 1px 3px 3px 1px;
+    -fx-border-color: #cccccc black black #cccccc;
+}
+
+.unfilled {
+    -fx-background-color: white;
+}
+
+.filled {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: red;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+    -fx-border-radius: 3px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button-box {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+}
+
+HBox {
+    -fx-spacing: 20px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+VBox {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+.text-field:error {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
