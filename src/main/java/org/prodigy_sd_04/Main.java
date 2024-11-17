@@ -13,7 +13,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class Gui extends Application {
+public class Main extends Application {
 
     Solver solver = new Solver();
 
@@ -22,8 +22,8 @@ public class Gui extends Application {
     GridPane[] main_2 = {new GridPane(), new GridPane()};
     TextField[] unfilled = new TextField[81];
     TextField[] filled = new TextField[81];
-    Button main_3 = new Button("Calculate");
-    Button resetButton = new Button("Reset");
+    Button main_3 = new Button("Solve");
+    Button resetButton = new Button("Clear");
 
     @Override
     public void start(Stage stage) {
@@ -81,7 +81,7 @@ public class Gui extends Application {
             field.clear();
             field.setStyle("-fx-font-size: 25px");
         }
-        showAlert(AlertType.INFORMATION, "Reset", "The Sudoku puzzle has been reset.");
+        showAlert(AlertType.INFORMATION, "Clear", "The Sudoku puzzle has been cleared.");
     }
 
     private TextField createTextField(String type, int row, int col) {
