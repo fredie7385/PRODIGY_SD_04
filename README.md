@@ -1,7 +1,7 @@
 # Sudoku Solver in Java
 
 ## Description
-A simple Java application that solves Sudoku puzzles using a backtracking algorithm and provides a graphical user interface (GUI) for user interaction.
+It's a simple Java application that solves Sudoku puzzles using a backtracking algorithm and provides a graphical user interface (GUI) for user interaction.
 
 ## Features
 - User-friendly GUI for inputting puzzles.
