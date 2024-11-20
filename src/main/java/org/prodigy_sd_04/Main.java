@@ -88,7 +88,6 @@ public class Main extends Application {
         TextField textField = new TextField();
         textField.setMaxWidth(50);
         textField.setMaxHeight(50);
-
         textField.getStyleClass().add(type);
         textField.getStyleClass().add("text-field");
 
